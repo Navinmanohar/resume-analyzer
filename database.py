@@ -71,9 +71,9 @@ class Database:
         self._session_factory = scoped_session(sessionmaker(bind=self._engine))
         try:
             Base.metadata.create_all(self._engine)
-        except Exception:
-            pass  # tables/indexes may already exist
-        self._migrate()
+            self._migrate()
+        except Exception as e:
+            logger.warning(f"⚠️  DB init issue (app will retry on first query): {e}")
         print("✅ SQLAlchemy + PostgreSQL ready!")
 
     def Session(self):
