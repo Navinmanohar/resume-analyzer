@@ -110,38 +110,32 @@ resume_analyzer/
 
 ## Screenshots
 
+### HR Dashboard
+![HR Dashboard](assets/screenshot-1.png)
+
 ### Employee Dashboard
-![Employee Dashboard](assets/screenshot-1.png)
+![Employee Dashboard](assets/screenshot-2.png)
 
 ### Browse Jobs
-![Browse Jobs](assets/screenshot-2.png)
+![Application History](assets/screenshot-3.png)
 
 ### Job Detail & AI Analysis
-![Job Detail & AI Analysis](assets/screenshot-3.png)
+![Job Detail & AI Analysis](assets/screenshot-4.png)
 
 ### Resume Upload
-![Resume Upload](assets/screenshot-4.png)
-
-### AI Match Score
-![AI Match Score](assets/screenshot-5.png)
+![Browse Jobs](assets/screenshot-5.png)
 
 ### AI Chat Panel
-![AI Chat Panel](assets/screenshot-6.png)
+![HR Dashboard](assets/screenshot-7.png)
 
 ### Analytics Page
-![Analytics](assets/screenshot-7.png)
+![Analytics](assets/screenshot-8.png)
 
 ### Resume Details Modal
-![Resume Details](assets/screenshot-8.png)
+![AI Chat Panel](assets/screenshot-9.png)
 
 ### Skill Gap Analysis
-![Skill Gap Analysis](assets/screenshot-9.png)
+![Main Dashboard](assets/screenshot-10.png)
 
 ### Application History
-![Application History](assets/screenshot-10.png)
-
-### HR Dashboard
-![HR Dashboard](assets/screenshot-11.png)
-
-### Job Creation
-![Job Creation](assets/screenshot-12.png)
+![Resume Upload](assets/screenshot-11.png)
