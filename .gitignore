@@ -26,6 +26,10 @@ frontend/.next/
 frontend/node_modules/
 frontend/out/
 
+# Agent instructions (not for public repo)
+AGENTS.md
+CLAUDE.md
+
 # IDE
 .vscode/
 .idea/
