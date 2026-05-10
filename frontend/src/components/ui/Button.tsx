@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 
 interface Props {
   children: React.ReactNode
-  onClick?: () => void
+  onClick?: (e: React.MouseEvent<HTMLButtonElement>) => void
   variant?: 'primary' | 'secondary' | 'danger' | 'ghost'
   size?: 'sm' | 'md' | 'lg'
   loading?: boolean
