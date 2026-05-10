@@ -34,7 +34,7 @@ class ResumeAnalyzer:
 
         # Validate
         if not self.api_key:
-            raise Exception("❌ CEREBRAS_API_KEY missing in .env!")
+            logger.warning("⚠️  CEREBRAS_API_KEY not set — AI features will fail at runtime")
 
         logger.info(f"✅ ResumeAnalyzer ready! Model: {self.model}")
 
