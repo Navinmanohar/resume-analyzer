@@ -108,34 +108,3 @@ resume_analyzer/
 └── sql_models.py          # ORM models
 ```
 
-## Screenshots
-
-### HR Dashboard
-![HR Dashboard](assets/screenshot-1.png)
-
-### Employee Dashboard
-![Employee Dashboard](assets/screenshot-2.png)
-
-### Browse Jobs
-![Application History](assets/screenshot-3.png)
-
-### Job Detail & AI Analysis
-![Job Detail & AI Analysis](assets/screenshot-4.png)
-
-### Resume Upload
-![Browse Jobs](assets/screenshot-5.png)
-
-### AI Chat Panel
-![HR Dashboard](assets/screenshot-7.png)
-
-### Analytics Page
-![Analytics](assets/screenshot-8.png)
-
-### Resume Details Modal
-![AI Chat Panel](assets/screenshot-9.png)
-
-### Skill Gap Analysis
-![Main Dashboard](assets/screenshot-10.png)
-
-### Application History
-![Resume Upload](assets/screenshot-11.png)
