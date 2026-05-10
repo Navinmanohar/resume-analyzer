@@ -98,6 +98,8 @@ api.include_router(agent_router)
 api.include_router(hr_router)
 api.include_router(auth_router)
 
+app = api  # alias for Render (uses main:app)
+
 # ━━━━━━━━━━━━━━━━━━━━━━━━
 # RUN SERVER
 # ━━━━━━━━━━━━━━━━━━━━━━━━
