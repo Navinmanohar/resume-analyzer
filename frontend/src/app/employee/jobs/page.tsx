@@ -143,13 +143,13 @@ export default function BrowseJobsPage() {
                   <div className="ml-4 flex flex-col gap-2">
                     <Button
                       variant="primary" size="sm"
-                      onClick={() => applyMutation.mutate(job.id)}
+                      onClick={(e) => { e.stopPropagation(); applyMutation.mutate(job.id); }}
                       loading={applyMutation.isPending}
                       disabled={!selectedResumeId || applyMutation.isPending}
                     >
                       <Briefcase className="w-4 h-4" /> Apply
                     </Button>
-                    <Button variant="ghost" size="sm" onClick={() => router.push(`/employee/jobs/${job.id}`)}>
+                    <Button variant="ghost" size="sm" onClick={(e) => { e.stopPropagation(); router.push(`/employee/jobs/${job.id}`); }}>
                       <Zap className="w-4 h-4" /> Details
                     </Button>
                   </div>
